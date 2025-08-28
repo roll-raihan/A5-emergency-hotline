@@ -38,7 +38,7 @@ callButton.forEach(button => {
 
         //get number
         const number = this.closest("div").parentNode.querySelector(".number").textContent;
-        const title = this.closest("div").parentNode.querySelector("h2").textContent;
+        const title = this.closest("div").parentNode.querySelector(".service-tag").textContent;
 
         //add to history
          const historyList = document.getElementById("historyList");
