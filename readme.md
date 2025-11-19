@@ -1,21 +1,49 @@
-# My Answer
-## Create Readme
+# 🚨 Emergency Hotline
 
-### My answer about the following questions clearly:
+**Live Site:** [Add your live site link here]  
+**Repository:** [Add your repo link here]
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-   Answer: getElementById returns single element.
-           getElementsByClassName returns html collection.
-           querySelector returns first matching element. 
-2. How do you **create and insert a new element into the DOM**?
-   Answer: To create and insert a new element into the DOM, we use document.createElement() and                then attach it with appendChild .
-3. What is **Event Bubbling** and how does it work?
-   Answer: If an event happens on a child element, it bubbles up,that is event bubbling.
-           It triggers handlers on its parent.
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-   Answer: Adding one event listener to a parent element and letting events from children bubble             up to it,is event delegation.
-            Useful cause,it Saves memory and works even if new child elements are added dynamically.
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
-    Answer: preventDefault() stops the default browser action.
-            stopPropagation() stops the event from bubbling to parent elements.
 ---
+
+## 📌 Description
+
+Emergency Hotline is a web-based project designed to assist people in urgent situations. Users can call for help using emergency numbers provided in the system. The project incorporates a “life” and “coin” system—users can make calls as long as they have coins; if coins run out, they cannot call until replenished.  
+
+---
+
+## 🛠️ Technology Stack
+
+**Frontend:** HTML, CSS, Tailwind CSS, DaisyUI  
+**Backend:** None (Static frontend project)  
+**Deployment:** Add your deployment platform here (e.g., Netlify, Vercel, GitHub Pages)  
+
+---
+
+## ✨ Key Features
+
+- **Emergency Calling System** – Users can call for help using preset emergency numbers.  
+- **Life & Coin System** – Calls are limited by available coins. Coins must be available to make calls.  
+- **User-Friendly Interface** – Simple, responsive, and intuitive design using Tailwind CSS and DaisyUI.  
+- **Responsive Design** – Works on desktop, tablet, and mobile devices.  
+
+---
+
+## 📦 Dependencies
+
+- Tailwind CSS  
+- DaisyUI  
+
+*(Add any other libraries or tools used in your project)*
+
+---
+
+## 🚀 How to Run Locally
+
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/emergency-hotline.git
+cd emergency-hotline
+code .
+```
